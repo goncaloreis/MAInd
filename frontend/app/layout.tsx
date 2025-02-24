@@ -30,7 +30,11 @@ export default function RootLayout({
       >
         <header style={{ padding: '1rem', background: '#f0f0f0' }}>
           <nav>
-            <Link href="/dashboard">Dashboard</Link> | <Link href="/auth">Auth</Link>
+            <Link href="/dashboard">Dashboard</Link> | 
+            <Link href="/auth">Auth</Link> | 
+            <Link href="/insights">Insights</Link> | 
+            <Link href="/mindmap">Mind Map</Link> | 
+            <Link href="/profile">Profile</Link>
           </nav>
         </header>
         <main>{children}</main>
